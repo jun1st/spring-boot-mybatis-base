@@ -1,0 +1,133 @@
+2017-11-25 22:01:03 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting SpringBootMybatisBaseApplication on fengqijundeMacBook-Pro.local with PID 6429 (/Users/fengqijun/Documents/spring-boot-mybatis-base/target/classes started by fengqijun in /Users/fengqijun/Documents/spring-boot-mybatis-base)
+2017-11-25 22:01:03 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] No active profile set, falling back to default profiles: default
+2017-11-25 22:01:03 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@549b3dba: startup date [Sat Nov 25 22:01:03 CST 2017]; root of context hierarchy
+2017-11-25 22:01:03 [INFO ](Version                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] HV000001: Hibernate Validator 5.3.5.Final
+2017-11-25 22:01:04 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat initialized with port(s): 8080 (http)
+2017-11-25 22:01:04 [INFO ](ContextLoader                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Root WebApplicationContext: initialization completed in 1138 ms
+2017-11-25 22:01:05 [INFO ](ServletRegistrationBean       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-25 22:01:05 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-25 22:01:05 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-25 22:01:05 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-25 22:01:05 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-25 22:01:05 [INFO ](RequestMappingHandlerAdapter  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@549b3dba: startup date [Sat Nov 25 22:01:03 CST 2017]; root of context hierarchy
+2017-11-25 22:01:05 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-25 22:01:05 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-25 22:01:05 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:01:05 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:01:05 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:01:05 [WARN ](AbstractTemplateResolverConfiguration) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-11-25 22:01:05 [INFO ](OptionalLiveReloadServer      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] LiveReload server is running on port 35729
+2017-11-25 22:01:05 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Registering beans for JMX exposure on startup
+2017-11-25 22:01:05 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat started on port(s): 8080 (http)
+2017-11-25 22:01:05 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Started SpringBootMybatisBaseApplication in 2.613 seconds (JVM running for 2.975)
+2017-11-25 22:01:15 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@549b3dba: startup date [Sat Nov 25 22:01:03 CST 2017]; root of context hierarchy
+2017-11-25 22:01:15 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2017-11-25 22:13:05 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting SpringBootMybatisBaseApplication on fengqijundeMacBook-Pro.local with PID 6866 (/Users/fengqijun/Documents/spring-boot-mybatis-base/target/classes started by fengqijun in /Users/fengqijun/Documents/spring-boot-mybatis-base)
+2017-11-25 22:13:05 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] No active profile set, falling back to default profiles: default
+2017-11-25 22:13:05 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b18c51b: startup date [Sat Nov 25 22:13:05 CST 2017]; root of context hierarchy
+2017-11-25 22:13:06 [INFO ](Version                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] HV000001: Hibernate Validator 5.3.5.Final
+2017-11-25 22:13:06 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat initialized with port(s): 8080 (http)
+2017-11-25 22:13:07 [INFO ](ContextLoader                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Root WebApplicationContext: initialization completed in 1118 ms
+2017-11-25 22:13:07 [INFO ](ServletRegistrationBean       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-25 22:13:07 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-25 22:13:07 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-25 22:13:07 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-25 22:13:07 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-25 22:13:07 [INFO ](RequestMappingHandlerAdapter  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b18c51b: startup date [Sat Nov 25 22:13:05 CST 2017]; root of context hierarchy
+2017-11-25 22:13:07 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-25 22:13:07 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-25 22:13:07 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:13:07 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:13:07 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:13:07 [WARN ](AbstractTemplateResolverConfiguration) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-11-25 22:13:07 [INFO ](OptionalLiveReloadServer      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] LiveReload server is running on port 35729
+2017-11-25 22:13:07 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Registering beans for JMX exposure on startup
+2017-11-25 22:13:08 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat started on port(s): 8080 (http)
+2017-11-25 22:13:08 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Started SpringBootMybatisBaseApplication in 3.232 seconds (JVM running for 3.606)
+2017-11-25 22:13:24 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b18c51b: startup date [Sat Nov 25 22:13:05 CST 2017]; root of context hierarchy
+2017-11-25 22:13:24 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2017-11-25 22:25:19 [INFO ](Version                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] HV000001: Hibernate Validator 5.3.5.Final
+2017-11-25 22:29:08 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting SpringBootMybatisBaseApplication on fengqijundeMacBook-Pro.local with PID 7318 (/Users/fengqijun/Documents/spring-boot-mybatis-base/target/classes started by fengqijun in /Users/fengqijun/Documents/spring-boot-mybatis-base)
+2017-11-25 22:29:08 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] No active profile set, falling back to default profiles: default
+2017-11-25 22:29:08 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@242e76a7: startup date [Sat Nov 25 22:29:08 CST 2017]; root of context hierarchy
+2017-11-25 22:29:08 [INFO ](Version                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] HV000001: Hibernate Validator 5.3.5.Final
+2017-11-25 22:29:09 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat initialized with port(s): 8080 (http)
+2017-11-25 22:29:09 [INFO ](ContextLoader                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Root WebApplicationContext: initialization completed in 1209 ms
+2017-11-25 22:29:09 [INFO ](ServletRegistrationBean       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-25 22:29:09 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-25 22:29:09 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-25 22:29:09 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-25 22:29:09 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-25 22:29:10 [INFO ](RequestMappingHandlerAdapter  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@242e76a7: startup date [Sat Nov 25 22:29:08 CST 2017]; root of context hierarchy
+2017-11-25 22:29:10 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-25 22:29:10 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-25 22:29:10 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:29:10 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:29:10 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:29:10 [WARN ](AbstractTemplateResolverConfiguration) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-11-25 22:29:10 [INFO ](OptionalLiveReloadServer      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] LiveReload server is running on port 35729
+2017-11-25 22:29:10 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Registering beans for JMX exposure on startup
+2017-11-25 22:29:10 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat started on port(s): 8080 (http)
+2017-11-25 22:29:11 [DEBUG](all                           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * from customer 
+2017-11-25 22:29:11 [DEBUG](all                           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2017-11-25 22:29:11 [DEBUG](all                           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2017-11-25 22:29:11 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Started SpringBootMybatisBaseApplication in 3.299 seconds (JVM running for 3.742)
+2017-11-25 22:30:44 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@242e76a7: startup date [Sat Nov 25 22:29:08 CST 2017]; root of context hierarchy
+2017-11-25 22:30:44 [WARN ](DisposableBeanAdapter         ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2017-11-25 22:30:44 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2017-11-25 22:30:44 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting SpringBootMybatisBaseApplication on fengqijundeMacBook-Pro.local with PID 7318 (/Users/fengqijun/Documents/spring-boot-mybatis-base/target/classes started by fengqijun in /Users/fengqijun/Documents/spring-boot-mybatis-base)
+2017-11-25 22:30:44 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] No active profile set, falling back to default profiles: default
+2017-11-25 22:30:44 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a7a01c9: startup date [Sat Nov 25 22:30:44 CST 2017]; root of context hierarchy
+2017-11-25 22:30:45 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat initialized with port(s): 8080 (http)
+2017-11-25 22:30:45 [INFO ](ContextLoader                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Root WebApplicationContext: initialization completed in 340 ms
+2017-11-25 22:30:45 [INFO ](ServletRegistrationBean       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-25 22:30:45 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-25 22:30:45 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-25 22:30:45 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-25 22:30:45 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-25 22:30:45 [WARN ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springBootMybatisBaseApplication': Unsatisfied dependency expressed through field 'customerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'me.fengqijun.mapper.CustomerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-11-25 22:30:45 [INFO ](AutoConfigurationReportLoggingInitializer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-25 22:30:45 [ERROR](LoggingFailureAnalysisReporter) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field customerMapper in me.fengqijun.SpringBootMybatisBaseApplication required a bean of type 'me.fengqijun.mapper.CustomerMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'me.fengqijun.mapper.CustomerMapper' in your configuration.
+
+2017-11-25 22:31:25 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting SpringBootMybatisBaseApplication on fengqijundeMacBook-Pro.local with PID 7380 (/Users/fengqijun/Documents/spring-boot-mybatis-base/target/classes started by fengqijun in /Users/fengqijun/Documents/spring-boot-mybatis-base)
+2017-11-25 22:31:25 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] No active profile set, falling back to default profiles: default
+2017-11-25 22:31:25 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@153ed4ae: startup date [Sat Nov 25 22:31:25 CST 2017]; root of context hierarchy
+2017-11-25 22:31:25 [INFO ](Version                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] HV000001: Hibernate Validator 5.3.5.Final
+2017-11-25 22:31:26 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat initialized with port(s): 8080 (http)
+2017-11-25 22:31:26 [INFO ](ContextLoader                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Root WebApplicationContext: initialization completed in 1202 ms
+2017-11-25 22:31:26 [INFO ](ServletRegistrationBean       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-25 22:31:26 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-25 22:31:26 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-25 22:31:26 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-25 22:31:26 [INFO ](FilterRegistrationBean        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-25 22:31:27 [INFO ](RequestMappingHandlerAdapter  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@153ed4ae: startup date [Sat Nov 25 22:31:25 CST 2017]; root of context hierarchy
+2017-11-25 22:31:27 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-25 22:31:27 [INFO ](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-25 22:31:27 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:31:27 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:31:27 [INFO ](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-25 22:31:27 [WARN ](AbstractTemplateResolverConfiguration) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-11-25 22:31:27 [INFO ](OptionalLiveReloadServer      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] LiveReload server is running on port 35729
+2017-11-25 22:31:27 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Registering beans for JMX exposure on startup
+2017-11-25 22:31:27 [INFO ](TomcatEmbeddedServletContainer) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Tomcat started on port(s): 8080 (http)
+2017-11-25 22:31:28 [DEBUG](all                           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * from customer 
+2017-11-25 22:31:28 [DEBUG](all                           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2017-11-25 22:31:28 [DEBUG](all                           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2017-11-25 22:31:28 [INFO ](SpringBootMybatisBaseApplication) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Started SpringBootMybatisBaseApplication in 3.311 seconds (JVM running for 3.737)
+2017-11-25 22:31:32 [INFO ](AnnotationConfigEmbeddedWebApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@153ed4ae: startup date [Sat Nov 25 22:31:25 CST 2017]; root of context hierarchy
+2017-11-25 22:31:32 [INFO ](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown

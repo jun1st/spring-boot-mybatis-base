@@ -1,0 +1,15 @@
+2017-11-25 22:30:45 [ERROR](LoggingFailureAnalysisReporter) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field customerMapper in me.fengqijun.SpringBootMybatisBaseApplication required a bean of type 'me.fengqijun.mapper.CustomerMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'me.fengqijun.mapper.CustomerMapper' in your configuration.
+
